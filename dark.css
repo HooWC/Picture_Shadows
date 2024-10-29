@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:black;
+    opacity: 0.45;
+}
+
+.img{
+    background-image: url('./171584-tablet-plant-ecoregion-green-wood-x750.jpg');
+    height:100vh;
+    width:100%;
+    background-size: cover;
+}
+
+.dark{
+    background: linear-gradient(
+        90deg,#181818 5%,
+    hsla(0,0%,9%,.90) 10%,
+    hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.95) 25%,
+    hsla(0,0%,9%,.94) 30%,hsla(0,0%,9%,.92) 35%,
+    hsla(0,0%,9%,.9) 40%,hsla(0,0%,9%,.87) 45%,
+    hsla(0,0%,9%,.82) 50%,hsla(0,0%,9%,.75) 55%,
+    hsla(0,0%,9%,.63) 60%,hsla(0,0%,9%,.45) 65%,
+    hsla(0,0%,9%,.27) 70%,hsla(0,0%,9%,.15) 75%,
+    hsla(0,0%,9%,.08) 80%,hsla(0,0%,9%,.03) 85%,
+    hsla(0,0%,9%,0)
+    );
+	height: 100%;
+}
+
+/* img{
+    height:100vh;
+    width:100%;
+    
+} */
